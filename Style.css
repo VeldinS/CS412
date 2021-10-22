@@ -1,5 +1,6 @@
-
-
+body{
+    overflow-x: hidden;
+}
 .header1{
     font-size: 85px;
     font-weight: 450;
@@ -82,10 +83,7 @@ header{
     height: 100vh;
 }
 
-.background1{
-    background-color: darkseagreen;
 
-}
 
 .bio1{
     text-align: center;
@@ -97,7 +95,9 @@ header{
 
 .text1{
     font-weight: 500;
-    padding: 60px;
+    padding: 80px;
+    margin-bottom: 300px;
+    background-color: darkseagreen;
 }
 
 .edupart{
@@ -168,7 +168,7 @@ header{
     background-color: blue;
     color: whitesmoke;
     border-radius: 100px;
-    width: 70%;
+    width: 60%;
     text-align: center;
     margin-top: 20px;
 }

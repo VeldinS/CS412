@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
 }
+/* HEADER */
 .header1{
     font-size: 85px;
     font-weight: 450;
@@ -77,6 +78,8 @@ header{
     color: white;
 }
 
+/*BIO*/
+
 .biopart{
     background-image: url("image7.jpg");
     padding: 100px;
@@ -99,6 +102,8 @@ header{
     margin-bottom: 300px;
     background-color: darkseagreen;
 }
+
+/*EDUCATION*/
 
 .edupart{
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
@@ -123,6 +128,8 @@ header{
     color: whitesmoke;
 }
 
+/*SKILLS*/
+
 .skillpart{
 
     background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
@@ -146,6 +153,8 @@ header{
     font-weight: 500;
     color: whitesmoke;
 }
+
+/*ADDRESS AND CONTACT ME */
 
 .addresspart{
 

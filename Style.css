@@ -1,3 +1,242 @@
+@media (max-width: 699px ) {
+    body{
+        overflow-x: hidden;
+    }
+    /* HEADER */
+    .header1{
+        font-size: 60px;
+        font-weight: 450;
+        font-family: SansSerif;
+        width: 100%;
+    }
+
+    .image1{
+        float: left;
+        padding: 30px 0px;
+        width: 200px;
+        height: auto;
+    }
+
+    .headerInfo{
+        display: table-row;
+        float: right;
+    }
+
+
+    .headerInfo p{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .image4{
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialMedia{
+        width: 15%;
+        float: right;
+        margin-top: -90px;
+        padding: 5px;
+    }
+    .socialMedia a{
+        padding: 6px;
+
+    }
+
+    header{
+        background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("background1.jpg") ;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        text-align: center;
+        background-attachment: fixed;
+    }
+
+    .btn:link,
+    .btn:visited{
+        text-decoration: none;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 40px 10px;
+        width: 170px;
+        height: 70px;
+    }
+
+    .btn-full:link,
+    .btn-full:visited{
+        background-color: cadetblue;
+        color: black;
+    }
+
+    .btn-full:hover,
+    .btn-full:active{
+        background-color: darkslategray;
+        color: white;
+    }
+
+    .btn-full:hover p,
+    .btn-full:active p{
+        color: white;
+    }
+
+    /*BIO*/
+
+    .biopart{
+        background-image: url("image7.jpg");
+        padding: 100px;
+        height: 190vh;
+    }
+
+
+
+    .bio1{
+        text-align: center;
+        font-size: 120px;
+        margin-top: -80px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+
+    .text1{
+        font-weight: 500;
+        background-color: darkseagreen;
+        font-size: 20px;
+    }
+
+    /*EDUCATION*/
+
+    .edupart{
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
+        padding: 100px;
+        height: 100vh;
+    }
+
+    .text2{
+        color: whitesmoke;
+        font-weight: 900;
+        font-size: 23px;
+        font-family: Ebrima;
+    }
+
+    .edu1{
+        text-align: center;
+        font-size: 80px;
+        margin-top: -80px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+
+    /*SKILLS*/
+
+    .skillpart{
+
+        background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
+        background-size: cover;
+        padding: 100px;
+        height: 140vh;
+    }
+
+    .text3{
+        color: whitesmoke;
+        font-weight: 900;
+        font-size: 23px;
+        font-family: Ebrima;
+    }
+
+    .skill1{
+        text-align: center;
+        font-size: 80px;
+        margin-top: -80px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+
+    /*ADDRESS AND CONTACT ME */
+
+    .addresspart{
+
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
+        background-size: cover;
+        padding: 100px;
+        height: 200vh;
+    }
+
+    address iframe{
+        width: 350px;
+        height: 200px;
+    }
+
+    .address1{
+        font-size: 60px;
+        margin-top: -50px;
+    }
+
+    .p2{
+        font-size: 25px;
+    }
+
+    .p3{
+        font-size: 30px;
+        background-color: blue;
+        color: whitesmoke;
+        border-radius: 100px;
+        width: 120%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .gmail{
+        margin-bottom: 30px;
+        width: 140%;
+    }
+
+    .gmail p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+
+    .phone{
+        margin-bottom: 30px;
+    }
+
+    .phone p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+
+    .facebook{
+        margin-bottom: 30px;
+    }
+
+    .facebook p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+
+
+    .instagram p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
+
+    }
+
+    .cm1{
+        margin-bottom: 50px;
+        width: 120%;
+    }
+}
+
+
+@media (min-width: 700px) {
 body{
     overflow-x: hidden;
 }
@@ -12,6 +251,8 @@ body{
 .image1{
     float: left;
     padding: 100px 0px ;
+    width: 350px;
+    height: auto;
 }
 
 .headerInfo{
@@ -168,6 +409,11 @@ header{
     font-size: 60px;
 }
 
+    address iframe{
+        width: 450px;
+        height: 350px;
+    }
+
 .p2{
     font-size: 25px;
 }
@@ -222,4 +468,5 @@ header{
 
 .cm1{
     margin-bottom: 50px;
+}
 }

@@ -57,13 +57,17 @@
         background-attachment: fixed;
     }
 
+    .btn p{
+        font-size: 15px;
+    }
+
     .btn:link,
     .btn:visited{
         text-decoration: none;
         padding: 10px 30px;
         border: none;
         border-radius: 40px 10px;
-        width: 170px;
+        width: 100px;
         height: 70px;
     }
 

@@ -13,9 +13,9 @@
     .image1{
         float: left;
         padding: 30px 0px;
-        width: 200px;
+        width: 300px;
         height: auto;
-        max-width: 40%;
+
     }
 
     .headerInfo{
@@ -68,8 +68,8 @@
         padding: 10px 30px;
         border: none;
         border-radius: 40px 10px;
-        width: 100px;
-        height: 45px;
+        width: 120px;
+        height: 55px;
     }
 
     .btn-full:link,
@@ -143,7 +143,7 @@
         background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
         background-size: cover;
         padding: 100px;
-        height: 140vh;
+        height: 165vh;
     }
 
     .text3{
@@ -242,236 +242,236 @@
 
 
 @media (min-width: 551px) {
-body{
-    overflow-x: hidden;
-}
-/* HEADER */
-.header1{
-    font-size: 85px;
-    font-weight: 450;
-    font-family: SansSerif;
-    width: 70%;
-}
+    body{
+        overflow-x: hidden;
+    }
+    /* HEADER */
+    .header1{
+        font-size: 85px;
+        font-weight: 450;
+        font-family: SansSerif;
+        width: 70%;
+    }
 
-.image1{
-    float: left;
-    padding: 100px 0px ;
-    width: 350px;
-    height: auto;
-}
+    .image1{
+        float: left;
+        padding: 100px 0px ;
+        width: 350px;
+        height: auto;
+    }
 
-.headerInfo{
-    padding: 500px 0px ;
-}
+    .headerInfo{
+        padding: 500px 0px ;
+    }
 
-.headerInfo p{
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 10px;
-}
+    .headerInfo p{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 10px;
+    }
 
-.image4{
-    width: 40px;
-    height: 40px;
-}
+    .image4{
+        width: 40px;
+        height: 40px;
+    }
 
-.socialMedia{
-    width: 15%;
-    float: right;
-    margin-top: -90px;
-    padding: 5px;
-}
-.socialMedia a{
-    padding: 6px;
-}
+    .socialMedia{
+        width: 15%;
+        float: right;
+        margin-top: -90px;
+        padding: 5px;
+    }
+    .socialMedia a{
+        padding: 6px;
+    }
 
-header{
-    background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("background1.jpg") ;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    text-align: center;
-    background-attachment: fixed;
-}
+    header{
+        background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("background1.jpg") ;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        text-align: center;
+        background-attachment: fixed;
+    }
 
-.btn:link,
-.btn:visited{
-    text-decoration: none;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 40px 10px;
-    width: 170px;
-    height: 70px;
-}
+    .btn:link,
+    .btn:visited{
+        text-decoration: none;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 40px 10px;
+        width: 170px;
+        height: 70px;
+    }
 
-.btn-full:link,
-.btn-full:visited{
-    background-color: cadetblue;
-    color: black;
-}
+    .btn-full:link,
+    .btn-full:visited{
+        background-color: cadetblue;
+        color: black;
+    }
 
-.btn-full:hover,
-.btn-full:active{
-    background-color: darkslategray;
-    color: white;
-}
+    .btn-full:hover,
+    .btn-full:active{
+        background-color: darkslategray;
+        color: white;
+    }
 
-.btn-full:hover p,
-.btn-full:active p{
-    color: white;
-}
+    .btn-full:hover p,
+    .btn-full:active p{
+        color: white;
+    }
 
-/*BIO*/
+    /*BIO*/
 
-.biopart{
-    background-image: url("image7.jpg");
-    padding: 100px;
-    height: 100vh;
-}
+    .biopart{
+        background-image: url("image7.jpg");
+        padding: 100px;
+        height: 100vh;
+    }
 
 
 
-.bio1{
-    text-align: center;
-    font-size: 120px;
-    margin-top: 140px;
-    font-weight: 500;
-    color: whitesmoke;
-}
+    .bio1{
+        text-align: center;
+        font-size: 120px;
+        margin-top: 140px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
 
-.text1{
-    font-weight: 500;
-    padding: 80px;
-    margin-bottom: 300px;
-    background-color: darkseagreen;
-}
+    .text1{
+        font-weight: 500;
+        padding: 80px;
+        margin-bottom: 300px;
+        background-color: darkseagreen;
+    }
 
-/*EDUCATION*/
+    /*EDUCATION*/
 
-.edupart{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
-    padding: 100px;
-    height: 100vh;
-}
+    .edupart{
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
+        padding: 100px;
+        height: 100vh;
+    }
 
-.text2{
-    padding: 200px;
-    color: whitesmoke;
-    font-weight: 900;
-    font-size: 23px;
-    font-family: Ebrima;
-}
+    .text2{
+        padding: 200px;
+        color: whitesmoke;
+        font-weight: 900;
+        font-size: 23px;
+        font-family: Ebrima;
+    }
 
-.edu1{
-    text-align: center;
-    font-size: 120px;
-    margin-top: 190px;
-    margin-bottom: 150px;
-    font-weight: 500;
-    color: whitesmoke;
-}
+    .edu1{
+        text-align: center;
+        font-size: 120px;
+        margin-top: 190px;
+        margin-bottom: 150px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
 
-/*SKILLS*/
+    /*SKILLS*/
 
-.skillpart{
+    .skillpart{
 
-    background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
-    background-size: cover;
-    padding: 100px;
-    height: 100vh;
-}
+        background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
+        background-size: cover;
+        padding: 100px;
+        height: 100vh;
+    }
 
-.text3{
-    color: whitesmoke;
-    font-weight: 900;
-    font-size: 20px;
-    font-family: Ebrima;
-}
+    .text3{
+        color: whitesmoke;
+        font-weight: 900;
+        font-size: 20px;
+        font-family: Ebrima;
+    }
 
-.skill1{
-    text-align: center;
-    font-size: 120px;
-    margin-top: 190px;
-    margin-bottom: 150px;
-    font-weight: 500;
-    color: whitesmoke;
-}
+    .skill1{
+        text-align: center;
+        font-size: 120px;
+        margin-top: 190px;
+        margin-bottom: 150px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
 
-/*ADDRESS AND CONTACT ME */
+    /*ADDRESS AND CONTACT ME */
 
-.addresspart{
+    .addresspart{
 
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
-    background-size: cover;
-    padding: 100px;
-    height: 100vh;
-}
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
+        background-size: cover;
+        padding: 100px;
+        height: 100vh;
+    }
 
-.address1{
-    font-size: 60px;
-}
+    .address1{
+        font-size: 60px;
+    }
 
     address iframe{
         width: 450px;
         height: 350px;
     }
 
-.p2{
-    font-size: 25px;
-}
+    .p2{
+        font-size: 25px;
+    }
 
-.p3{
-    font-size: 30px;
-    background-color: blue;
-    color: whitesmoke;
-    border-radius: 100px;
-    width: 60%;
-    text-align: center;
-    margin-top: 20px;
-}
+    .p3{
+        font-size: 30px;
+        background-color: blue;
+        color: whitesmoke;
+        border-radius: 100px;
+        width: 60%;
+        text-align: center;
+        margin-top: 20px;
+    }
 
-.gmail{
-    margin-bottom: 30px;
-}
+    .gmail{
+        margin-bottom: 30px;
+    }
 
-.gmail p{
-    font-size: 18px;
-    margin-left: 20px;
-    font-weight: 700;
-}
+    .gmail p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
 
-.phone{
-    margin-bottom: 30px;
-}
+    .phone{
+        margin-bottom: 30px;
+    }
 
-.phone p{
-    font-size: 18px;
-    margin-left: 20px;
-    font-weight: 700;
-}
+    .phone p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
 
-.facebook{
-    margin-bottom: 30px;
-}
+    .facebook{
+        margin-bottom: 30px;
+    }
 
-.facebook p{
-    font-size: 18px;
-    margin-left: 20px;
-    font-weight: 700;
-}
+    .facebook p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
 
 
-.instagram p{
-    font-size: 18px;
-    margin-left: 20px;
-    font-weight: 700;
+    .instagram p{
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: 700;
 
-}
+    }
 
-.cm1{
-    margin-bottom: 50px;
-}
+    .cm1{
+        margin-bottom: 50px;
+    }
 }

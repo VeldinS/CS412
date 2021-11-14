@@ -1,477 +1,242 @@
-@media (max-width: 550px ) {
-    body{
-        overflow-x: hidden;
-    }
-    /* HEADER */
-    .header1{
-        font-size: 60px;
-        font-weight: 450;
-        font-family: SansSerif;
-        width: 100%;
-    }
+html,
+body{
+    overflow-x: hidden;
+    font-size: 10px;
+}
+/* HEADER */
+.header1{
+    font-size: 850%;
+    font-weight: 450;
+    font-family: SansSerif;
+    width: 70%;
+}
 
-    .image1{
-        float: left;
-        padding: 30px 0px;
-        width: 300px;
-        height: auto;
+.image1{
+    float: left;
+    padding: 100px 0px ;
+    width: 350px;
+    height: auto;
+}
 
-    }
+.headerInfo{
+    padding: 500px 0px ;
+}
 
-    .headerInfo{
-        display: table-row;
-        float: right;
-    }
+.headerInfo p{
+    display: inline-block;
+    font-size: 200%;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
 
+.image4{
+    width: 40px;
+    height: 40px;
+}
 
-    .headerInfo p{
-        display: table-row;
-        font-size: 20px;
-        font-weight: 500;
-        text-align: center;
-        margin-top: 10px;
-    }
+.socialMedia{
+    width: 15%;
+    float: right;
+    margin-top: -90px;
+    padding: 5px;
+}
+.socialMedia a{
+    padding: 6px;
+}
 
-    .image4{
-        width: 40px;
-        height: 40px;
-    }
+header{
+    background-image:-webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("background1.jpg") ;
+    background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("background1.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    background-attachment: fixed;
+}
 
-    .socialMedia{
-        width: 15%;
-        float: right;
-        margin-top: -90px;
-        padding: 5px;
-    }
-    .socialMedia a{
-        padding: 6px;
+.btn:link,
+.btn:visited{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 40px 10px;
+    width: 170px;
+    height: 70px;
+}
 
-    }
+.btn-full:link,
+.btn-full:visited{
+    background-color: cadetblue;
+    color: black;
+}
 
-    header{
-        background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("background1.jpg") ;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        text-align: center;
-        background-attachment: fixed;
-    }
+.btn-full:hover,
+.btn-full:active{
+    background-color: darkslategray;
+    color: white;
+}
 
-    .btn p{
-        font-size: 15px;
-    }
+.btn-full:hover p,
+.btn-full:active p{
+    color: white;
+}
 
-    .btn:link,
-    .btn:visited{
-        text-decoration: none;
-        padding: 10px 30px;
-        border: none;
-        border-radius: 40px 10px;
-        width: 120px;
-        height: 55px;
-    }
+/*BIO*/
 
-    .btn-full:link,
-    .btn-full:visited{
-        background-color: cadetblue;
-        color: black;
-    }
-
-    .btn-full:hover,
-    .btn-full:active{
-        background-color: darkslategray;
-        color: white;
-    }
-
-    .btn-full:hover p,
-    .btn-full:active p{
-        color: white;
-    }
-
-    /*BIO*/
-
-    .biopart{
-        background-image: url("image7.jpg");
-        padding: 100px;
-        height: 190vh;
-    }
-
-
-
-    .bio1{
-        text-align: center;
-        font-size: 120px;
-        margin-top: -80px;
-        font-weight: 500;
-        color: whitesmoke;
-    }
-
-    .text1{
-        font-weight: 500;
-        background-color: darkseagreen;
-        font-size: 20px;
-    }
-
-    /*EDUCATION*/
-
-    .edupart{
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
-        padding: 100px;
-        height: 100vh;
-    }
-
-    .text2{
-        color: whitesmoke;
-        font-weight: 900;
-        font-size: 23px;
-        font-family: Ebrima;
-    }
-
-    .edu1{
-        text-align: center;
-        font-size: 80px;
-        margin-top: -80px;
-        font-weight: 500;
-        color: whitesmoke;
-    }
-
-    /*SKILLS*/
-
-    .skillpart{
-
-        background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
-        background-size: cover;
-        padding: 100px;
-        height: 165vh;
-    }
-
-    .text3{
-        color: whitesmoke;
-        font-weight: 900;
-        font-size: 23px;
-        font-family: Ebrima;
-    }
-
-    .skill1{
-        text-align: center;
-        font-size: 80px;
-        margin-top: -80px;
-        font-weight: 500;
-        color: whitesmoke;
-    }
-
-    /*ADDRESS AND CONTACT ME */
-
-    .addresspart{
-
-        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
-        background-size: cover;
-        padding: 100px;
-        height: 200vh;
-    }
-
-    address iframe{
-        width: 350px;
-        height: 200px;
-    }
-
-    .address1{
-        font-size: 60px;
-        margin-top: -50px;
-    }
-
-    .p2{
-        font-size: 25px;
-    }
-
-    .p3{
-        font-size: 30px;
-        background-color: blue;
-        color: whitesmoke;
-        border-radius: 100px;
-        width: 120%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .gmail{
-        margin-bottom: 30px;
-        width: 140%;
-    }
-
-    .gmail p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
-    }
-
-    .phone{
-        margin-bottom: 30px;
-    }
-
-    .phone p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
-    }
-
-    .facebook{
-        margin-bottom: 30px;
-    }
-
-    .facebook p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
-    }
-
-
-    .instagram p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
-
-    }
-
-    .cm1{
-        margin-bottom: 50px;
-        width: 120%;
-    }
+.biopart{
+    background-image: url("image7.jpg");
+    padding: 100px;
+    height: 100vh;
 }
 
 
-@media (min-width: 551px) {
-    body{
-        overflow-x: hidden;
-    }
-    /* HEADER */
-    .header1{
-        font-size: 85px;
-        font-weight: 450;
-        font-family: SansSerif;
-        width: 70%;
-    }
 
-    .image1{
-        float: left;
-        padding: 100px 0px ;
-        width: 350px;
-        height: auto;
-    }
+.bio1{
+    text-align: center;
+    font-size: 1200%;
+    margin-top: 140px;
+    font-weight: 500;
+    color: whitesmoke;
+}
 
-    .headerInfo{
-        padding: 500px 0px ;
-    }
+.text1{
+    font-weight: 500;
+    font-size: 220%;
+    padding: 10px;
+    margin-bottom: 300px;
+    margin-top: -40px;
+    background-color: darkseagreen;
+}
 
-    .headerInfo p{
-        display: inline-block;
-        font-size: 20px;
-        font-weight: 500;
-        text-align: center;
-        margin-top: 10px;
-    }
+/*EDUCATION*/
 
-    .image4{
-        width: 40px;
-        height: 40px;
-    }
+.edupart{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
+    padding: 100px;
+    height: 100vh;
+}
 
-    .socialMedia{
-        width: 15%;
-        float: right;
-        margin-top: -90px;
-        padding: 5px;
-    }
-    .socialMedia a{
-        padding: 6px;
-    }
+.text2{
+    margin-top: 170px;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 230%;
+    font-family: Ebrima;
+}
 
-    header{
-        background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("background1.jpg") ;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        text-align: center;
-        background-attachment: fixed;
-    }
+.edu1{
+    text-align: center;
+    font-size: 1200%;
+    margin-top: 190px;
+    margin-bottom: 150px;
+    font-weight: 500;
+    color: whitesmoke;
+}
 
-    .btn:link,
-    .btn:visited{
-        text-decoration: none;
-        padding: 10px 30px;
-        border: none;
-        border-radius: 40px 10px;
-        width: 170px;
-        height: 70px;
-    }
+/*SKILLS*/
 
-    .btn-full:link,
-    .btn-full:visited{
-        background-color: cadetblue;
-        color: black;
-    }
+.skillpart{
 
-    .btn-full:hover,
-    .btn-full:active{
-        background-color: darkslategray;
-        color: white;
-    }
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
 
-    .btn-full:hover p,
-    .btn-full:active p{
-        color: white;
-    }
+    background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
+    background-size: cover;
+    padding: 100px;
+    height: 100vh;
+}
 
-    /*BIO*/
+.text3{
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 200%;
+    font-family: Ebrima;
+    margin-top: -90px;
+}
 
-    .biopart{
-        background-image: url("image7.jpg");
-        padding: 100px;
-        height: 100vh;
-    }
+.skill1{
+    text-align: center;
+    font-size: 1200%;
+    margin-top: 190px;
+    margin-bottom: 150px;
+    font-weight: 500;
+    color: whitesmoke;
+}
 
+/*ADDRESS AND CONTACT ME */
 
+.addresspart{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
+    background-size: cover;
+    padding: 100px;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
-    .bio1{
-        text-align: center;
-        font-size: 120px;
-        margin-top: 140px;
-        font-weight: 500;
-        color: whitesmoke;
-    }
+.address1{
+    font-size: 600%;
+}
 
-    .text1{
-        font-weight: 500;
-        padding: 80px;
-        margin-bottom: 300px;
-        background-color: darkseagreen;
-    }
+address iframe{
+    width: 450px;
+    height: 350px;
+}
 
-    /*EDUCATION*/
+.p2{
+    font-size: 250%;
+}
 
-    .edupart{
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
-        padding: 100px;
-        height: 100vh;
-    }
+.p3{
+    font-size: 300%;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 100px;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+}
 
-    .text2{
-        padding: 200px;
-        color: whitesmoke;
-        font-weight: 900;
-        font-size: 23px;
-        font-family: Ebrima;
-    }
+.gmail{
+    margin-bottom: 30px;
+}
 
-    .edu1{
-        text-align: center;
-        font-size: 120px;
-        margin-top: 190px;
-        margin-bottom: 150px;
-        font-weight: 500;
-        color: whitesmoke;
-    }
+.gmail p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
+}
 
-    /*SKILLS*/
+.phone{
+    margin-bottom: 30px;
+}
 
-    .skillpart{
+.phone p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
+}
 
-        background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
-        background-size: cover;
-        padding: 100px;
-        height: 100vh;
-    }
+.facebook{
+    margin-bottom: 30px;
+}
 
-    .text3{
-        color: whitesmoke;
-        font-weight: 900;
-        font-size: 20px;
-        font-family: Ebrima;
-    }
-
-    .skill1{
-        text-align: center;
-        font-size: 120px;
-        margin-top: 190px;
-        margin-bottom: 150px;
-        font-weight: 500;
-        color: whitesmoke;
-    }
-
-    /*ADDRESS AND CONTACT ME */
-
-    .addresspart{
-
-        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
-        background-size: cover;
-        padding: 100px;
-        height: 100vh;
-    }
-
-    .address1{
-        font-size: 60px;
-    }
-
-    address iframe{
-        width: 450px;
-        height: 350px;
-    }
-
-    .p2{
-        font-size: 25px;
-    }
-
-    .p3{
-        font-size: 30px;
-        background-color: blue;
-        color: whitesmoke;
-        border-radius: 100px;
-        width: 60%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .gmail{
-        margin-bottom: 30px;
-    }
-
-    .gmail p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
-    }
-
-    .phone{
-        margin-bottom: 30px;
-    }
-
-    .phone p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
-    }
-
-    .facebook{
-        margin-bottom: 30px;
-    }
-
-    .facebook p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
-    }
+.facebook p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
+}
 
 
-    .instagram p{
-        font-size: 18px;
-        margin-left: 20px;
-        font-weight: 700;
+.instagram p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
 
-    }
+}
 
-    .cm1{
-        margin-bottom: 50px;
-    }
+.cm1{
+    margin-bottom: 50px;
 }

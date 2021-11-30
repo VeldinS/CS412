@@ -344,7 +344,7 @@ html,
 @media only screen and (max-width:429px) {
 
     .headerInfo{
-        padding-top: 75%;
+        margin-top: 300px;
         margin-left: 50px;
     }
 
@@ -362,10 +362,4 @@ html,
         font-family: "Agency FB";
     }
 
-}
-@media only screen and (max-width:350px) {
-    .headerInfo{
-        padding-top: 85%;
-        margin-left: 50px;
-    }
 }

@@ -166,7 +166,7 @@ header{
     font-size: 220%;
     padding: 10px;
     margin-bottom: 300px;
-    margin-top: -40px;
+    margin-top: -50px;
     color: white;
 }
 
@@ -183,7 +183,7 @@ header{
 }
 
 .text2{
-    margin-top: 170px;
+    margin-top: 120px;
     color: whitesmoke;
     font-weight: 900;
     font-size: 230%;
@@ -193,7 +193,7 @@ header{
 .edu1{
     text-align: center;
     font-size: 1200%;
-    margin-top: 190px;
+    margin-top: 140px;
     margin-bottom: 150px;
     font-weight: 500;
     color: whitesmoke;
@@ -218,13 +218,13 @@ header{
     font-weight: 900;
     font-size: 200%;
     font-family: Ebrima;
-    margin-top: -90px;
+    margin-top: -100px;
 }
 
 .skill1{
     text-align: center;
     font-size: 1200%;
-    margin-top: 190px;
+    margin-top: 140px;
     margin-bottom: 150px;
     font-weight: 500;
     color: whitesmoke;

@@ -106,6 +106,9 @@ html,
 
 @media only screen and (max-width:992px) {
 
+    .headerInfo{
+        padding-top: 35%;
+    }
 
     .btn:link,
     .btn:visited{
@@ -122,7 +125,7 @@ html,
 @media only screen and (max-width:968px){
 
 .headerInfo{
-    padding-top: 15%;
+    padding-top: 35%;
 }
 
 }
@@ -157,7 +160,7 @@ html,
     }
 
     .headerInfo{
-        padding-top: 30%;
+        padding-top: 45%;
         margin-left: 30px;
     }
 
@@ -278,12 +281,7 @@ html,
     }
 
     .headerInfo{
-        width: 90%;
-        margin-left: 15%;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
-        grid-gap: 15px;
-        padding-top: 25%;
+        padding-top: 45%;
     }
 
     .btn:link,
@@ -342,7 +340,25 @@ html,
         margin-top: 20px;
         font-size: 6px;
     }
-
-
 }
- 
+@media only screen and (max-width:429px) {
+
+    .headerInfo{
+        padding-top: 55%;
+        margin-left: 50px;
+    }
+
+    .header1 h1{
+        font-size: 30px;
+        font-family: "Agency FB";
+        letter-spacing: 13px;
+        width: 100%;
+        width: 100%;
+
+    }
+
+    .header1 h2{
+        font-size: 20px;
+        font-family: "Agency FB";
+    }
+}

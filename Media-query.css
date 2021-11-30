@@ -281,7 +281,7 @@ html,
     }
 
     .headerInfo{
-        padding-top: 45%;
+        padding-top: 55%;
     }
 
     .btn:link,
@@ -361,10 +361,11 @@ html,
         font-size: 20px;
         font-family: "Agency FB";
     }
-    @media only screen and (max-width:350px) {
-        .headerInfo{
-            padding-top: 85%;
-            margin-left: 50px;
-        }
+
+}
+@media only screen and (max-width:350px) {
+    .headerInfo{
+        padding-top: 85%;
+        margin-left: 50px;
     }
 }

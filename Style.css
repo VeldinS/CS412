@@ -39,7 +39,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
     grid-gap: 20px;
-    padding-top: 20%;
+    padding-top: 35%;
 }
 
 .headerInfo p{
@@ -72,7 +72,6 @@ body{
 }
 
 header{
-
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -305,3 +304,63 @@ address iframe{
 .cm1{
     margin-bottom: 50px;
 }
+
+.contentPanel {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 20%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.active, .contentPanel:hover {
+    background-color: #0dcaf0;
+}
+
+.inside {
+    padding: 20px;
+    background-color: yellow;
+    font-size: 15px;
+}
+/******* JQUERY ANIMATE ON SCROLL *******/
+
+.animation1{
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.animation1.animate__animated{
+    opacity: 1;
+}
+
+/***project3***/
+
+.morning{
+    opacity: 0;
+}
+.afternoon{
+    opacity: 0;
+}
+.evening{
+    opacity: 0;
+}
+
+.goodMorning{
+    opacity: 1;
+    color: yellow;
+}
+
+.goodAfternoon{
+    opacity: 1;
+    color: blue;
+}
+
+.goodEvening{
+    opacity: 1;
+    color: white;
+}
+

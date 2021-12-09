@@ -60,12 +60,20 @@ switch (x){         //8. Switch
         insertElement(this.document.getElementById("evening"), eveningGreet);
 }
 
-//ARRAY EXAMPLE CANNOT BE USED ON PAGE
+//ARRAY EXAMPLE 
+const Array1 = ["1" , "2" , "3" , "4", "5" , "6" , "7" ,  "8" , "9" , "10" ];       //3. Arrays
+    for(let i=0;i<Array1.length;i++) {
+        document.getElementById("printArray").innerHTML = Array1[0] + Array1[1] + Array1[2] + Array1[3];
+    } //WHEN RUN BUTTON IS CLICKED IN IDE, IT WILL PRINT ARRAY ON WEB-PAGE
+    
+
+
+
 //CONTENT PANEL WITH TEXT ONLY BECAUSE PANELS ON MY PAGE ARE ALREADY SET
 const coll = document.getElementsByClassName("contentPanel");       //10. Content Panel
 let i;
 
-for (i = 0; i < coll.length; i++) {                             //8. For Loop
+for (i = 0; i < coll.length; i++) {                             //9. For Loop
     coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
